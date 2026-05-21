@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce - The World's #1 CRM Platform</title>
+    <link rel="stylesheet" href="salesforceclone.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="announcement-strip">
+        <p>🎉 JUST ANNOUNCED: See why Gartner® recognised Salesforce as a Leader in Customer Data Platform. <a href="#">Read the report →</a></p>
+        <button class="strip-close" id="stripClose"><i class="ri-close-line"></i></button>
+    </div>
+
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg" alt="Salesforce">
+            </div>
+            <nav class="nav-links" id="navLinks">
+                <div class="nav-item dropdown">
+                    <span>Products <i class="ri-arrow-drop-down-line"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="#"><i class="ri-cloud-line"></i> Sales Cloud</a>
+                        <a href="#"><i class="ri-customer-service-2-line"></i> Service Cloud</a>
+                        <a href="#"><i class="ri-megaphone-line"></i> Marketing Cloud</a>
+                        <a href="#"><i class="ri-bar-chart-line"></i> Analytics</a>
+                        <a href="#"><i class="ri-robot-line"></i> Salesforce AI</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <span>Industries <i class="ri-arrow-drop-down-line"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="#"><i class="ri-bank-line"></i> Financial Services</a>
+                        <a href="#"><i class="ri-hospital-line"></i> Healthcare</a>
+                        <a href="#"><i class="ri-store-line"></i> Retail</a>
+                        <a href="#"><i class="ri-government-line"></i> Government</a>
+                    </div>
+                </div>
+                <div class="nav-item"><span>Customers</span></div>
+                <div class="nav-item"><span>Learning</span></div>
+                <div class="nav-item"><span>Support</span></div>
+            </nav>
+            <div class="nav-actions">
+                <div class="nav-contact">
+                    <p><u>Contact Us</u></p>
+                    <p class="phone">1-800-664-9073</p>
+                </div>
+                <button class="icon-btn"><i class="ri-search-line"></i></button>
+                <button class="icon-btn"><i class="ri-global-line"></i></button>
+                <button class="login-btn"><i class="ri-user-2-fill"></i> Login</button>
+                <button class="try-btn">Try For Free</button>
+            </div>
+            <button class="hamburger" id="hamburger"><i class="ri-menu-line"></i></button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">⚡ Powered by Salesforce AI</span>
+                <h1>Try Salesforce Starter Suite for Free</h1>
+                <p>Unite marketing, sales, and service in a single app. There's nothing to install. No credit card required.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Start Free Trial</button>
+                    <button class="btn-secondary"><i class="ri-play-circle-line"></i> Watch Demo</button>
+                </div>
+                <div class="hero-trust">
+                    <span><i class="ri-shield-check-line"></i> No credit card required</span>
+                    <span><i class="ri-time-line"></i> Setup in minutes</span>
+                    <span><i class="ri-customer-service-2-line"></i> 24/7 support</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-wrapper">
+                    <img src="https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg" alt="Salesforce" class="hero-logo-large">
+                    <div class="floating-card card1">
+                        <i class="ri-bar-chart-fill"></i>
+                        <div><p class="card-title">Revenue Growth</p><p class="card-value">+34%</p></div>
+                    </div>
+                    <div class="floating-card card2">
+                        <i class="ri-user-smile-line"></i>
+                        <div><p class="card-title">Customer Satisfaction</p><p class="card-value">98.6%</p></div>
+                    </div>
+                    <div class="floating-card card3">
+                        <i class="ri-flash-line"></i>
+                        <div><p class="card-title">Deals Closed</p><p class="card-value">2,847</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trusted">
+        <div class="trusted-container">
+            <p class="trusted-title">Trusted by the world's most innovative companies</p>
+            <div class="logos-track">
+                <div class="logos-slide">
+                    <span class="logo-item">Amazon</span>
+                    <span class="logo-item">Toyota</span>
+                    <span class="logo-item">Spotify</span>
+                    <span class="logo-item">T-Mobile</span>
+                    <span class="logo-item">IBM</span>
+                    <span class="logo-item">Ford</span>
+                    <span class="logo-item">Adidas</span>
+                    <span class="logo-item">Philips</span>
+                    <span class="logo-item">Amazon</span>
+                    <span class="logo-item">Toyota</span>
+                    <span class="logo-item">Spotify</span>
+                    <span class="logo-item">T-Mobile</span>
+                    <span class="logo-item">IBM</span>
+                    <span class="logo-item">Ford</span>
+                    <span class="logo-item">Adidas</span>
+                    <span class="logo-item">Philips</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-badge">Our Products</span>
+                <h2>Learn what Salesforce Products can do for you</h2>
+                <p>Everything you need to connect with your customers — in one platform.</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon" style="background:#00A1E0"><i class="ri-bar-chart-2-line"></i></div>
+                    <h3>Sales Cloud</h3>
+                    <p>Close more deals faster with AI-powered CRM. Track leads, manage pipelines, and forecast revenue.</p>
+                    <a href="#" class="product-link">Learn more <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon" style="background:#FF6B35"><i class="ri-customer-service-2-line"></i></div>
+                    <h3>Service Cloud</h3>
+                    <p>Deliver exceptional customer service at scale. Resolve cases faster with intelligent automation.</p>
+                    <a href="#" class="product-link">Learn more <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon" style="background:#7B68EE"><i class="ri-megaphone-line"></i></div>
+                    <h3>Marketing Cloud</h3>
+                    <p>Personalise every customer interaction across email, mobile, and social media channels.</p>
+                    <a href="#" class="product-link">Learn more <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon" style="background:#00C49F"><i class="ri-robot-line"></i></div>
+                    <h3>Salesforce AI</h3>
+                    <p>Supercharge every workflow with Einstein AI. Predict, automate, and personalise at scale.</p>
+                    <a href="#" class="product-link">Learn more <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon" style="background:#FF9800"><i class="ri-pie-chart-2-line"></i></div>
+                    <h3>Analytics</h3>
+                    <p>Turn data into decisions. Get real-time insights and beautiful dashboards for every team.</p>
+                    <a href="#" class="product-link">Learn more <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon" style="background:#E91E63"><i class="ri-store-2-line"></i></div>
+                    <h3>Commerce Cloud</h3>
+                    <p>Build seamless shopping experiences connected to every customer touchpoint.</p>
+                    <a href="#" class="product-link">Learn more <i class="ri-arrow-right-line"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="section-container">
+            <div class="stats-grid">
+                <div class="stat-item"><h3 class="stat-number" data-target="150000">0</h3><p>Customers Worldwide</p></div>
+                <div class="stat-item"><h3 class="stat-number" data-target="98">0</h3><p>% Customer Satisfaction</p></div>
+                <div class="stat-item"><h3 class="stat-number" data-target="25">0</h3><p>Years of Innovation</p></div>
+                <div class="stat-item"><h3 class="stat-number" data-target="17">0</h3><p>Times Named #1 CRM</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-badge">Customer Stories</span>
+                <h2>See what our customers are saying</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                    <p>"Salesforce has transformed how we connect with customers. Our sales team is 40% more productive since implementation."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div><p class="author-name">Jane Doe</p><p class="author-role">VP of Sales, Amazon</p></div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                    <p>"The AI features alone saved us 20 hours per week. We can now focus on what actually matters — our customers."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MS</div>
+                        <div><p class="author-name">Mark Smith</p><p class="author-role">CTO, Spotify</p></div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                    <p>"From day one, setup was seamless. Our support resolution time dropped by 60% in the first quarter alone."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AR</div>
+                        <div><p class="author-name">Aisha Rahman</p><p class="author-role">Head of Support, IBM</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-badge">Pricing</span>
+                <h2>Simple, transparent pricing</h2>
+                <p>Start free. Scale as you grow. No hidden fees.</p>
+            </div>
+            <div class="pricing-toggle">
+                <span class="toggle-label active" id="monthlyLabel">Monthly</span>
+                <div class="toggle-switch" id="pricingToggle"><div class="toggle-thumb"></div></div>
+                <span class="toggle-label" id="annualLabel">Annual <span class="save-badge">Save 20%</span></span>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <p class="pricing-desc">Perfect for small teams getting started</p>
+                    <div class="price"><span class="currency">$</span><span class="amount monthly-price">25</span><span class="period">/user/month</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="ri-check-line"></i> Contact Management</li>
+                        <li><i class="ri-check-line"></i> Lead Tracking</li>
+                        <li><i class="ri-check-line"></i> Email Integration</li>
+                        <li><i class="ri-check-line"></i> Mobile App</li>
+                        <li class="disabled"><i class="ri-close-line"></i> Advanced Analytics</li>
+                        <li class="disabled"><i class="ri-close-line"></i> AI Features</li>
+                    </ul>
+                    <button class="pricing-btn outline">Get Started</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <p class="pricing-desc">For growing teams that need more power</p>
+                    <div class="price"><span class="currency">$</span><span class="amount monthly-price">75</span><span class="period">/user/month</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="ri-check-line"></i> Everything in Starter</li>
+                        <li><i class="ri-check-line"></i> Advanced Analytics</li>
+                        <li><i class="ri-check-line"></i> Forecasting</li>
+                        <li><i class="ri-check-line"></i> API Access</li>
+                        <li><i class="ri-check-line"></i> Custom Dashboards</li>
+                        <li class="disabled"><i class="ri-close-line"></i> AI Features</li>
+                    </ul>
+                    <button class="pricing-btn filled">Get Started</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <p class="pricing-desc">For large organisations with complex needs</p>
+                    <div class="price"><span class="currency">$</span><span class="amount monthly-price">150</span><span class="period">/user/month</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="ri-check-line"></i> Everything in Pro</li>
+                        <li><i class="ri-check-line"></i> Einstein AI</li>
+                        <li><i class="ri-check-line"></i> Unlimited Customisation</li>
+                        <li><i class="ri-check-line"></i> 24/7 Priority Support</li>
+                        <li><i class="ri-check-line"></i> Dedicated Account Manager</li>
+                        <li><i class="ri-check-line"></i> SSO & Advanced Security</li>
+                    </ul>
+                    <button class="pricing-btn outline">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-container">
+            <h2>Ready to grow your business?</h2>
+            <p>Join 150,000+ companies already using Salesforce to connect with their customers.</p>
+            <div class="cta-buttons">
+                <button class="btn-primary large">Start Your Free Trial</button>
+                <button class="btn-ghost large">Talk to an Expert</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg" alt="Salesforce" class="footer-logo">
+                    <p>The world's #1 customer relationship management platform.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="ri-twitter-x-line"></i></a>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                        <a href="#"><i class="ri-youtube-line"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Products</h4>
+                        <a href="#">Sales Cloud</a>
+                        <a href="#">Service Cloud</a>
+                        <a href="#">Marketing Cloud</a>
+                        <a href="#">Analytics</a>
+                        <a href="#">Salesforce AI</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Industries</h4>
+                        <a href="#">Financial Services</a>
+                        <a href="#">Healthcare</a>
+                        <a href="#">Retail</a>
+                        <a href="#">Manufacturing</a>
+                        <a href="#">Government</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">News</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Sustainability</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Support</h4>
+                        <a href="#">Help Center</a>
+                        <a href="#">Community</a>
+                        <a href="#">Training</a>
+                        <a href="#">Documentation</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Salesforce, Inc. All rights reserved. | Clone project for portfolio purposes.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookie Preferences</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop"><i class="ri-arrow-up-line"></i></button>
+    <!-- <script src="salesforceclone.js"></script> -->
+</body>
+<!-- </html> -->
